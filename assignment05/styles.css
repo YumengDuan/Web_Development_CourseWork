@@ -1,0 +1,63 @@
+#header{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0px;
+    padding: 0px;
+}
+
+h1{
+	color: purple;
+	font-size: 50px;
+	text-align: center;
+	line-height: 500px;
+	text-shadow: 3px 3px 1px PaleGoldenRod;
+	margin: 0;
+}
+
+#nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 21px;
+	padding: 0px 30px;
+	width: 80px;
+	display: inline-block;
+}
+
+#nav {
+	height: 50px;
+	background-color: black;
+	line-height: 50px;
+	text-align: center;
+	font-size: 0; 
+}
+
+#nav a:hover {
+	background-color: purple;
+	color: PaleGoldenRod;
+}
+
+#nav a.active {
+	background-color: purple; 
+	color: PaleGoldenRod;
+}
+
+#wrapper-body{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: Plum;
+}
+
+body{
+	background-color: PaleGoldenRod;
+	padding: 0px;
+	margin: 0px;
+}
+
+#footer{
+	background-color: pink;
+	height: 50px;
+	text-align: center;
+	padding: 2px;
+}

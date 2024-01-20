@@ -1,0 +1,58 @@
+@font-face{
+	font-family: romance;
+	src: url("fonts/romance.ttf");	
+}
+
+#header{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0px;
+    padding: 0px;
+}
+
+h1{
+	color: purple;
+	font-size: 100px;
+	text-align: center;
+	line-height: 500px;
+	text-shadow: 3px 3px 1px PaleGoldenRod;
+	margin: 0;
+	font-family: romance, cursive;
+}
+
+h2 {
+	font-family: romance, cursive;
+	font-size: 37px;
+}
+
+#wrapper-body{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: Plum;
+}
+
+body{
+	background-color: PaleGoldenRod;
+	padding: 0px;
+	margin: 0px;
+}
+
+#footer{
+	background-color: pink;
+	height: 50px;
+	text-align: center;
+	padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+

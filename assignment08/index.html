@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maria Duan|Final Project Home Page</title>
+<style>
+#header {
+	background-image: url(img/24.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 450px;
+}
+
+#nav {
+	height: 50px;
+	background-color: Lavender;
+	line-height: 50px;
+	text-align: center;
+}
+
+#nav a{
+	color: black;
+	text-decoration: none;
+	font-size: 21px;
+	padding: 0px 30px;
+	width: 80px;
+	display: inline-block;
+}
+
+#nav a:hover {
+	background-color: black;
+	color: Lavender;
+}
+
+body{
+	background-color: whitesmoke;
+	padding: 0px;
+	margin: 0px;
+}
+
+.width {
+	margin: 0 auto;
+	width: 1050px;
+	height: auto;
+}
+
+#contact {
+	background-color: honeydew;
+	border: 10px dashed #ccffcc;
+	margin-right: 20px;
+	padding: 0px 5px;
+}
+
+#link {
+	background-color: lavender;
+	border: 10px dashed #eeccff;
+	margin-right: 20px;
+	margin-top: 35px;
+	padding: 0px 5px;
+}
+
+#intro {
+	background-color: lavenderblush;
+	border: 10px dashed #ffccdd;
+	padding: 0px 5px;
+}
+
+#left {
+	float: left;
+	width: 430px;
+	height: auto;
+}
+
+#right {
+	float: left;
+	width: 620px;
+	height: auto;
+}
+
+.clearfloat {clear: both;}
+
+#footer {
+	color: lavender;
+	text-align: center;
+	background-color: black;
+	line-height: 60px;
+	height: 60px;
+}
+
+</style>
+</head>
+
+<body>
+	<div id="header">
+	</div><!--#header-->
+
+	<div id="nav">
+		<a href="index.html">Home</a>
+		<a href="menu.html">Menu</a>
+		<a href="gallery.html">Gallery</a>
+	</div><!--#nav-->
+
+<div class="width">
+	<div id="left">
+	<div id="contact">
+		<h2>Want To Know More?</h2>
+
+		<form action="confirmation.html">
+		<div class="form_row">
+			<label class="label" for="name">Name:</label>
+			<input id="name" type="text" placeholder="Tom Black">
+		</div>
+
+		<div class="form_row">
+			<label class="label" for="email">Email:</label>
+			<input id="email" type="email" placeholder="abc@usc.edu">
+		</div>
+
+		<div class="form_row">
+			<label class="label">Is this your first time hearing the 24 Solar Terms?</label>
+			<input id="yes" type="radio" value="Yes" name="YorN">
+			<label for="yes">Yes</label>
+			<input id="no" type="radio" value="No" name="YorN">
+			<label for="no">No</label>
+		</div>
+
+		<div class="form_row">
+			<label class="label" for="comment">Additional Comment:</label>
+			<textarea id="comment" placeholder="Please leave your comment here."></textarea>
+		</div>
+
+		<div class="form_row">
+			<input id="term_con" type="checkbox" value="yes" name="term_con" required>
+			<label for="term_con">I accpect the terms and conditions</label>
+		</div>
+
+		<div class="form_row">
+			<button id="submit-bin" type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</div>
+		</form>
+	</div><!--#contact-->
+
+	<div id="link">
+		<h2>Inspired By</h2>
+		<ul>
+			<li><a href="https://www.yourchineseastrology.com/calendar/24-solar-terms.htm" target="_blank">yourchineseastrology</a></li>
+			<li><a href="https://www.chinahighlights.com/festivals/the-24-solar-terms.htm" target="_blank">chinahighlights</a></li>
+			<li><a href="https://thehutong.com/24-solar-terms/" target="_blank">thehutong</a></li>
+		</ul>
+	</div><!--#link-->
+	</div><!--left-->
+
+	<div id="right">
+	<div id="intro">
+		<h2>Introduction</h2>
+		<p>Based on the changes of the sun's position in the zodiac throughout the year and practical needs of agriculture in ancient China, the "24 solar terms" is an important kind of calendar in China. It indicates different periods of seasons, the changes of weather, some natural phenomena and more, guiding farmers in agriculture production greatly. Common people also follow the calendar to watch out weather changes and traditional festivals.</p>
+
+		<p>Solar Terms are divided according to the sun's annual motion in the ecliptic plane (the Earth's orbit around the Sun). It is part of the traditional Chinese calendar zodiac. The 24 Solar Terms were inscribed on the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO in 2016.</p>
+
+		<h3>Origin</h3>
+		<p>The formation of the 24 solar terms depends entirely on the experience, heritage and wisdom of the ancient Chinese people regarding the influence between natural changes and production methods.</p>
+
+		<p>As early as the Shang Dynasty (17th century BC – 1046 BC), the Chinese ancestors had already established four major solar terms. During the Zhou Dynasty (1046 – 256 BC), eight solar terms marking the four seasons were established: Start of Spring, Spring Equinox, Start of Summer, Summer Solstice, Start of Autumn, Autumn Equinox, Start of Winter, and Winter Solstice. Until the Han Dynasty (202 BC – 220 AD), the present 24 solar terms was established completely.</p>
+	</div><!--#intro-->
+	</div><!--right-->
+
+	<div class="clearfloat"></div>
+
+	<div id="video">
+		<iframe width="1050" height="700" src="https://xbeibeix.com/api/bilibili/biliplayer/?url=BV1xF411M7DT" allowfullscreen> </iframe>
+	</div>
+</div><!--.width-->
+
+<div id="footer">
+	<p>All Rights Reserved.</p>
+</div><!--#footer-->
+
+</body>
+</html>
+
+

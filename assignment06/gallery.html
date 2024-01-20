@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maria Duan|Movie Photo </title>
+<link rel="stylesheet" href="styles.css">
+
+<style>
+	/*body, h1, h2, h3, h4, h5, h6, ol, ul, p, a {
+	border:1px solid blue;
+	}*/
+#header{
+	background-image: url("gallery/header.png");
+	height: 400px;
+}
+
+#nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 21px;
+
+	width: 80px;
+	display: inline-block;
+	text-align: center;
+}
+
+#nav-wrapper {
+	height: 50px;
+	background-color: black;
+	line-height: 50px;
+	text-align: center;
+	font-size: 0; 
+}
+
+#nav a:hover {
+	background-color: purple;
+}
+
+#nav a.active {
+	background-color: purple; 
+}
+
+.clearfloat {clear: both;}
+
+.line1{
+	padding-top: 2px;
+}
+
+#img1{
+	margin: 1px;
+	float: left;
+	width: 300px;
+	height: 160px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+
+.img1{
+	width: 300px;
+	height: auto;
+}
+
+#img2{
+	margin: 1px;
+	float: left;
+	width: 300px;
+	height: 160px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+.img2{
+	width: 300px;
+	height: auto;
+}
+
+#img3{
+	margin: 1px;
+	float: left;
+	width: 384px;
+	height: 160px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+.img3{
+	width: 384px;
+	height: auto;
+}
+
+.line2{
+	padding-top: 2px;
+}
+
+#img4{
+	margin: 1px;
+	float: left;
+	width: 280px;
+	height: 180px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+
+.img4{
+	width: 280px;
+	height: auto;
+}
+
+#img5{
+	margin: 1px;
+	float: left;
+	width: 340px;
+	height: 180px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+.img5{
+	width: 340px;
+	height: auto;
+}
+
+#img10{
+	margin: 1px;
+	float: left;
+	width: 364px;
+	height: 180px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+.img10{
+	width: 364px;
+	height: auto;
+}
+
+.line3{
+	padding-top: 2px;
+}
+
+#img7{
+	margin: 1px;
+	float: left;
+	width: 350px;
+	height: 180px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+
+.img7{
+	width: 350px;
+	height: auto;
+}
+
+#img8{
+	margin: 1px;
+	float: left;
+	width: 340px;
+	height: 180px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+.img8{
+	width: 340px;
+	height: auto;
+}
+
+#img11{
+	margin: 1px;
+	float: left;
+	width: 294px;
+	height: 180px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+.img11{
+	width: 294px;
+	height: auto;
+}
+
+.line4{
+	padding-top: 2px;
+}
+
+#img12{
+	margin: 1px;
+	float: left;
+	width: 330px;
+	height: 165px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+
+.img12{
+	width: 330px;
+	height: auto;
+}
+
+#img9{
+	margin: 1px;
+	float: left;
+	width: 360px;
+	height: 165px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+.img9{
+	width: 360px;
+	height: auto;
+}
+
+#img6{
+	margin: 1px;
+	float: left;
+	width: 294px;
+	height: 165px;
+	overflow: hidden;		
+	border: 1px solid #000;
+}
+.img6{
+	width: 294px;
+	height: auto;
+}
+
+.imgposition{
+	position: relative;
+}
+
+.overlay {
+	background-color: rgba(0,0,0,.3);
+	color: white;
+	text-align: center;
+	line-height: 140px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.imgposition:hover .overlay{
+	visibility: visible;
+}
+
+</style>
+</head>
+
+<body>
+<div id="header">
+	<h1><em>Gallery</em></h1>
+</div><!--close #header div-->
+
+<div id="nav-wrapper">
+<div id="nav">
+	<a href="index.html">Home</a>
+	<a class="active" href="gallery.html">Gallery</a>
+</div><!--close #nav div-->
+</div><!--close #nav-wrapper div-->
+
+<div id="wrapper-body">
+<div class="line1">
+	<div id="img1" class="imgposition">
+		<img class="img1" src="gallery/1.jpg" alt="img1">
+		<div class="overlay">
+			<p>on the train</p>
+		</div>
+	</div> 
+
+	<div id="img2" class="imgposition">
+		<img class="img2" src="gallery/2.jpg" alt="img2">
+		<div class="overlay">
+			<p>in the restaurant</p>		
+		</div>
+	</div> 
+
+	<div id="img3" class="imgposition">
+		<img class="img3" src="gallery/3.jpg" alt="img3">
+		<div class="overlay">
+			<p>on the bay</p>
+		</div>
+	</div>
+</div>			
+<div class="clearfloat"></div>
+<div class="line2">
+	<div id="img4" class="imgposition">
+		<img class="img4" src="gallery/4.jpg" alt="img4">
+		<div class="overlay">
+			<p>view under the bridge</p>
+		</div>
+	</div> 
+
+	<div id="img5" class="imgposition">
+		<img class="img5" src="gallery/5.png" alt="img5">
+		<div class="overlay">
+			<p>a glance at the piano</p>	
+		</div>
+	</div> 
+
+	<div id="img10" class="imgposition">
+		<img class="img10" src="gallery/10.png" alt="img10">
+		<div class="overlay">
+			<p>double dance</p>	
+		</div>
+	</div>
+</div>
+<div class="clearfloat"></div>
+<div class="line3">
+	<div id="img7" class="imgposition">
+		<img class="img7" src="gallery/7.jpg" alt="img7">
+		<div class="overlay">
+			<p>dinner together</p>		
+		</div>
+	</div> 
+
+	<div id="img8" class="imgposition">
+		<img class="img8" src="gallery/8.jpg" alt="img8">
+		<div class="overlay">
+			<p>kissing under street light</p>			
+		</div>
+	</div> 
+
+	<div id="img11" class="imgposition">
+		<img class="img11" src="gallery/11.png" alt="img11">
+		<div class="overlay">
+			<p>party dressup</p>			
+		</div>
+	</div>
+</div>
+<div class="clearfloat"></div>
+<div class="line4">
+	<div id="img12" class="imgposition">
+		<img class="img12" src="gallery/12.png" alt="img12">
+		<div class="overlay">
+			<p>solitay actor on stage</p>		
+		</div>
+	</div> 
+
+	<div id="img9" class="imgposition">
+		<img class="img9" src="gallery/9.jpg" alt="img9">
+		<div class="overlay">
+			<p>walking in the dusk</p>			
+		</div>
+	</div> 
+
+	<div id="img6" class="imgposition">
+		<img class="img6" src="gallery/6.png" alt="img6">
+		<div class="overlay">
+			<p>dancing in the dusk</p>			
+		</div>
+	</div>
+</div>
+<div class="clearfloat"></div>
+
+</div><!--close #wrapper-body div-->
+
+
+<div id="footer">
+	<p><em>Watch it on Netflix</em></p>
+</div><!--close #footer div-->
+
+</body>
+</html>
