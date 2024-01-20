@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maria Duan|Simple Photo Gallery</title>
+<style>
+
+	body{
+		background-color: darkseagreen;
+	}
+
+	#header{
+		text-align: center;
+	}
+
+	#content{
+		width: 1100px;
+		margin: 0 auto;
+	}
+
+	img{
+		width: 320px;
+		height: auto;
+		margin: 15px;
+		border: 8px darkslategray dashed;
+		border-radius: 50%;	
+	}
+
+	.img-wrapper{
+		float: left;
+		text-align: center;
+		font-size: 20px;
+		color: black;
+	}
+
+	.img-wrapper p {
+		visibility: hidden;
+	}
+
+	.img-wrapper:hover p{
+		visibility: visible;
+	}
+
+</style>
+</head>
+
+<body>
+<div id="header">
+	<h1>A Trip to London</h1>
+</div><!--close #header div-->
+
+<div id="content">
+
+<div class="img-wrapper">
+	<img src="image/night.jpeg" alt="night">
+	<p>City night</p>
+</div>
+
+<div class="img-wrapper">
+	<img src="image/shop.jpeg" alt="shop">
+	<p>Street shops</p>
+</div>
+
+<div class="img-wrapper">
+	<img src="image/illustration.jpeg" alt="illustration">
+	<p>Illustration design</p>
+</div>
+
+<div class="img-wrapper">
+	<img src="image/building.jpeg" alt="building">
+	<p>Old stone building</p>
+</div>
+
+<div class="img-wrapper">
+	<img src="image/gate.jpeg" alt="gate">
+	<p>Side gate of a college</p>
+</div>
+
+<div class="img-wrapper">
+	<img src="image/telephone.jpeg" alt="telephone">
+	<p>Red telephone booth</p>
+</div>
+
+</div><!--close #content div-->
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maria Duan|Image Puzzle</title>
+
+<style>
+	/*body, h1, h2, h3, h4, h5, h6, ol, ul, p, a div{
+	border:1px solid blue;
+	}*/
+
+body{
+	margin: 0 auto;
+	background-image: url(images/flower.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+h1{
+	text-align: center; 
+	margin: 0 auto;
+	padding: 20px;
+	color: purple;
+	text-shadow: plum 5px 3px;
+	font-size: 50px;
+}
+
+#image {
+	margin: 0 auto;
+	width: 780px;
+	position: relative;
+}
+
+.clearfloat {clear: both;}
+
+img {
+	float: left;
+	height: 250px;
+	width: auto;
+}
+
+#img1 {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	box-shadow: plum 5px 10px;
+}
+
+#img2 {
+	position: absolute;
+	top: 240px;
+	left: 255px;
+	box-shadow: plum 5px 10px;
+}
+
+#img3 {
+	position: absolute;
+	top: 255px;
+	right: 35px;
+	box-shadow: plum 5px 10px;
+}
+
+#ocupy{opacity: 0;}
+
+#img4 {
+	position: absolute;
+	bottom: 15px;
+	left: 5px;
+	box-shadow: plum 5px 10px;
+}
+
+#img5 {
+	position: absolute;
+	bottom: 0px;
+	left: 250px;
+	box-shadow: plum 5px 10px;
+}
+
+#img6 {
+	position: absolute;
+	bottom: 10px;
+	right: 40px;
+	box-shadow: plum 5px 10px;
+}
+</style>
+</head>
+
+<body>
+<h1>Cute Alpacas in New Zealand</h1>
+
+<div id="image">
+	<img src="images/1,1.jpg" alt="1,1">
+	<img src="images/1,2.jpg" alt="1,2">
+	<img id="img1" src="images/1,3.jpg" alt="1,3">
+
+	<div class="clearfloat"></div>
+
+	<img src="images/2,1.jpg" alt="2,1">
+	<img id="img2" src="images/2,2.jpg" alt="2,2">
+	<img id="img3" src="images/2,3.jpg" alt="2,3">
+
+	<div class="clearfloat"></div>
+
+	<img id="ocupy" src="images/3,1.jpg" alt="3,1">
+	<img id="img4" src="images/3,1.jpg" alt="3,1">
+	<img id="img5" src="images/3,2.jpg" alt="3,2">
+	<img id="img6" src="images/3,3.jpg" alt="3,3">
+
+	<div class="clearfloat"></div>
+</div><!--close #image div-->
+
+</body>
+</html>

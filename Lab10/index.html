@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maria Duan|Animation</title>
+
+<style>
+	/*
+	body, h1, h2, h3, h4, h5, h6, ol, ul, p, a, img{
+	border:1px solid blue;
+	}*/
+body {
+	background-image: url("img/road.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#empty {
+	height: 500px;
+	width: auto;
+}
+
+#content {
+	padding-left: 10px;
+	transition: all 17s linear;
+	-webkit-transition: all 5s; 
+	-moz-transition: all 5s; 
+	-o-transition: all 5s; 
+	-ms-transition: all 5s;
+}
+
+#content:hover {
+	padding-left: 1200px;
+}
+
+#speech {
+	width: 170px;
+	height: 80px;
+	background-color: purple;
+	font-size: 20px;
+	color: lightyellow;
+	text-align: center;
+	padding: 0px;
+	border-radius: 70%;
+}
+
+#bubble {
+	background-color: purple;
+	color: lightyellow;
+	text-align: center;
+	padding: 0px;
+	border-radius: 70%;
+	font-size: 20px;
+	width: 30px;
+	height: auto;
+	margin-left: 120px;
+}
+
+</style>
+</head>
+
+<body>
+<div id="empty">
+</div><!--#empty-->
+
+<div id="content">
+	<div id="speech">
+		<p>Touch me!</p>
+		<p>I can walk!</p>
+	</div><!--#speech-->
+
+	<div id="bubble">
+		<p>...</p>
+	</div><!--bubble-->
+
+	<img id="duckwalking" src="img/duck.gif" alt="duckwalking">
+</div><!--#content-->
+
+</body>
+</html>

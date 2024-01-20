@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maria Duan|Pizza Order Form</title>
+
+<style>
+	/*body, h1, h2, h3, h4, h5, h6, ol, ul, p, a {
+	border:1px solid blue;
+	}*/
+
+h1{color: darkseagreen;}
+
+#body{
+	border: 10px dashed DarkSlateGrey;
+	width: 650px;
+	margin: 100px auto;
+}
+
+body{	
+ 	background-image: url('leaves.jpeg');
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+.form_row{
+	margin: 10px 0px;
+}
+
+.label{
+	float: left;
+	width: 12%;
+}
+
+#comment{width: 300px;}
+#submit-bin{
+	background-color: darkseagreen;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="body">
+<h1>Pizza Order Form</h1>
+
+<form action="confirmation.html">
+<div class="form_row">
+	<label class="label" for="name">Name:</label>
+	<input id="name" type="text" placeholder="Tom Black">
+</div>
+
+<div class="form_row">
+	<label class="label" for="phone">Phone:</label>
+	<input id="phone" type="text" placeholder="(123)123-1234">
+</div>
+
+<div class="form_row">
+	<label class="label" for="email">Email:</label>
+	<input id="email" type="email" placeholder="abc@usc.edu">
+</div>
+
+<div class="form_row">
+	<label class="label">Pizza Menu:</label>
+	<input id="menu_neo" type="radio" value="Pizza_Neapolitan" name="pizza">
+	<label for="menu_neo">Pizza Neapolitan</label>
+	<input id="menu_pep" type="radio" value="Pizza_Pepperoni" name="pizza">
+	<label for="menu_pep">Pizza Pepperoni</label>
+	<input id="menu_sup" type="radio" value="Pizza_Supreme" name="pizza">
+	<label for="menu_sup">Pizza Supreme</label>
+</div>
+
+<div class="form_row">
+	<label class="label">Drinks:</label>
+	<input id="orange_juice" type="checkbox" value="orange_juice" name="orange_juice">
+	<label for="orange_juice">Orange Juice</label>
+	<input id="coco_cola" type="checkbox" value="Coco_Cola" name="coco_Cola">
+	<label for="coco_cola">Coco Cola</label>
+	<input id="fanta" type="checkbox" value="Fanta" name="fanta">
+	<label for="fanta">Fanta</label>
+</div>
+
+<div class="form_row">
+	<label class="label" for="pick_up">Pick Up:</label>
+	<select id="pick_up">
+		<option value="eat_in">Eat in</option>
+		<option value="take-away">Take-away</option>
+		<option value="delivery">Delivery</option>
+	</select>
+</div>
+
+<div class="form_row">
+	<label class="label" for="comment">Additional Comment:</label>
+	<textarea id="comment" placeholder="Leave your comment here."></textarea>
+</div>
+
+<div class="form_row">
+	<input id="term_con" type="checkbox" value="yes" name="term_con" required>
+	<label for="term_con">I accpect  the terms and conditions</label>
+</div>
+
+<div class="form_row">
+	<button id="submit-bin" type="submit">Submit</button>
+	<button type="reset">Reset</button>
+</div>
+</form>
+
+</div><!--close #body div-->
+
+</body>
+</html>

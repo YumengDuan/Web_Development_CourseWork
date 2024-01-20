@@ -1,0 +1,48 @@
+#header {
+	background-image: url(img/24.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 450px;
+}
+
+#nav {
+	height: 50px;
+	background-color: Lavender;
+	line-height: 50px;
+	text-align: center;
+}
+
+#nav a{
+	color: black;
+	text-decoration: none;
+	font-size: 21px;
+	padding: 0px 30px;
+	width: 160px;
+	display: inline-block;
+}
+
+#nav a:hover {
+	background-color: black;
+	color: Lavender;
+}
+
+body{
+	background-color: whitesmoke;
+	padding: 0px;
+	margin: 0px;
+}
+
+.width {
+	margin: 0 auto;
+	width: 1050px;
+	height: auto;
+}
+
+#footer {
+	color: lavender;
+	text-align: center;
+	background-color: black;
+	line-height: 60px;
+	height: 60px;
+}
